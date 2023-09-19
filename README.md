@@ -2,19 +2,19 @@
 
 <h2>Diagrammes UML :</h2>
 
-<b>Diagramme de cas d'utilisation (Use Case Diagram)</b>
-<b>Diagramme de classe (Class Diagram)</b>
-<b>Diagramme d'objet (Object Diagram)</b>
-Diagramme de séquence (Sequence Diagram)
-Diagramme de collaboration (Collaboration Diagram)
-Diagramme d'état (State Diagram)
-Diagramme d'activité (Activity Diagram)
-Diagramme de composants (Component Diagram)
-Diagramme de déploiement (Deployment Diagram)
-Diagramme de communication (Communication Diagram)
-Diagramme de timing (Timing Diagram)
-Diagramme de packages (Package Diagram)
-Diagramme de sous-système (Subsystem Diagram)
+<b>Diagramme de cas d'utilisation (Use Case Diagram)</b><br>
+<b>Diagramme de classe (Class Diagram)</b><br>
+<b>Diagramme d'objet (Object Diagram)</b><br>
+Diagramme de séquence (Sequence Diagram)<br>
+Diagramme de collaboration (Collaboration Diagram)<br>
+Diagramme d'état (State Diagram)<br>
+Diagramme d'activité (Activity Diagram)<br>
+Diagramme de composants (Component Diagram)<br>
+Diagramme de déploiement (Deployment Diagram)<br>
+Diagramme de communication (Communication Diagram)<br>
+Diagramme de timing (Timing Diagram)<br>
+Diagramme de packages (Package Diagram)<br>
+Diagramme de sous-système (Subsystem Diagram)<br>
 
  <h2>MERISE: </h2>
 
