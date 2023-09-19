@@ -16,7 +16,7 @@ Diagramme de timing (Timing Diagram)
 Diagramme de packages (Package Diagram)
 Diagramme de sous-système (Subsystem Diagram)
 
- MERISE:
+ <h2>MERISE: </h2>
 
 <b>Modèle conceptuel des données (MCD)</b>
 <b>Modèle logique des données (MLD)</b>
