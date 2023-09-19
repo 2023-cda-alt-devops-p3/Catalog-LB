@@ -18,13 +18,13 @@ Diagramme de sous-système (Subsystem Diagram)<br>
 
  <h2>MERISE: </h2>
 
-<b>Modèle conceptuel des données (MCD)</b>
-<b>Modèle logique des données (MLD)</b>
-<b>Modèle physique des données (MPD)</b>
-Diagramme de flux de données (DFD)
-Diagramme de flux de processus (PFD)
-Diagramme de flux externe (EFD)
-Diagramme entité-association (EA)
+<b>Modèle conceptuel des données (MCD)</b><br>
+<b>Modèle logique des données (MLD)</b><br>
+<b>Modèle physique des données (MPD)</b><br>
+Diagramme de flux de données (DFD)<br>
+Diagramme de flux de processus (PFD)<br>
+Diagramme de flux externe (EFD)<br>
+Diagramme entité-association (EA)<br>
 
 <b>Diagramme de cas d'utilisation (Use Case Diagram):</b> Il représente les interactions entre les acteurs (utilisateurs ou systèmes externes) et les fonctionnalités d'un système, montrant comment les acteurs utilisent le système pour atteindre leurs objectifs.
 
