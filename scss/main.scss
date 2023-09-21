@@ -1,18 +1,20 @@
 @import '_navbar.scss';
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&family=Rowdies:wght@300&display=swap');
 $couleurPrimere: #272441;
-
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: 'Barlow';
 }
-
 h1, h2, h3, h4, h5 {
   margin-top: 10px;
   font-weight: 600;
   color: $couleurPrimere;
 }
-h1{
+h1 {
   font-size: 50px;
   margin-right: auto;
   padding: 0 20px;
@@ -24,12 +26,16 @@ h1{
     border-radius: 0 10px 10px 0px;
   }
 }
-h2{
+h2 {
   font-size: 40px;
   margin: 10px 0;
 }
 p {
   font-size: 18px;
+  margin: 5px 0;
+}
+b {
+  color: #201e3a;
 }
 .demarrageRapide {
   width: 100%;

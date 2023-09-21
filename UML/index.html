@@ -75,8 +75,8 @@
     </ul>
   </div>
     <h1><span>Diagramme UML</span></h1>
-    <div class="top">
-      <div class="text">
+    <div class="bloc">
+      <div class="text" id="diagrammeUtilisation">
         <h2>Diagramme de cas d'utilisation</h2>
         <p>
           En langage UML, les diagrammes de cas d'utilisation modélisent le comportement d'un système et permettent de capturer les exigences du système.
@@ -85,11 +85,11 @@
       </p>
     </div>
     <div class="img">
-          <img src="/img/UML-Class-Diagram-Example-Transparent.png"/>
+          <img src="/img/UML-utilisation.png"/>
     </div>
     </div>
-    <div class="top">
-      <div class="text">
+    <div class="bloc">
+      <div class="text" id="diagrammeClasses">
         <h2>Diagramme de classes</h2>
         <p>
         Le langage de modélisation unifié (UML) peut vous aider à modéliser des systèmes de plusieurs façons. 
@@ -110,26 +110,82 @@
           <img src="/img/UML-Class-Diagram-Example-Transparent.png"/>
     </div>
     </div>
-    <div class="top">
+    <div class="bloc" id="diagrammeObjet">
       <div class="text">
-        <h2>Diagramme de classes</h2>
+        <h2>Diagramme d'objet</h2>
         <p>
-        Le langage de modélisation unifié (UML) peut vous aider à modéliser des systèmes de plusieurs façons. 
-        Le diagramme de classes est l'un des types les plus populaires en langage UML. Très utilisé par les ingénieurs logiciel pour documenter l'architecture des logiciels, 
-        les diagrammes de classes sont un type de diagramme de structure, car ils décrivent ce qui doit être présent dans le système modélisé. Quel que soit votre degré de familiarité 
-        avec les diagrammes UML ou les diagrammes de classes, notre logiciel UML est conçu pour être simple à utiliser.
-        Le langage UML a été créé sous forme de modèle standardisé pour décrire une approche de la programmation orientée objet. 
-        Comme les classes sont les composantes des objets, les diagrammes de classes sont les composantes de l'UML. 
-        Les divers éléments d'un diagramme de classes peuvent représenter les classes qui seront effectivement programmées, 
-        les principaux objets ou les interactions entre classes et objets. 
-        La forme de la classe à proprement parler se compose d'un rectangle à trois lignes. La ligne supérieure contient le nom de la classe, celle du milieu affiche les attributs 
-        de la classe et la ligne inférieure exprime les méthodes ou les opérations que la classe est susceptible d'utiliser. 
-        Les classes et sous-classes sont regroupées pour illustrer la relation statique entre chaque objet.
-        La bibliothèque de formes UML de Lucidchart peut vous aider à créer quasiment n'importe quel diagramme de classes personnalisé à l'aide de notre outil de diagramme UML.
+          Un diagramme d'objet, également appelé diagramme de classe d'instance ou diagramme d'instance, 
+          est un type de diagramme de modèle de données utilisé dans le domaine de l'ingénierielogicielle et de 
+          la modélisation orientée objet. Il fait partie de la famille de diagrammes UML (Unified Modeling Language), 
+          qui est un langage de modélisation couramment utilisé pour concevoir et documenter des systèmes logiciels.
+          Un diagramme d'objet représente des instances spécifiques de classes et montre comment ces instances sont liées les unes aux autres à un moment donné dans le temps. 
+          Il est principalement utilisé pour visualiser les relations et les structures des objets d'un système logiciel à un niveau d'abstraction élevé.
       </p>
     </div>
     <div class="img">
-          <img src="/img/UML-Class-Diagram-Example-Transparent.png"/>
+          <img src="/img/Dclasses.png"/>
+    </div>
+    </div>    
+    <div class="bloc" id="diagrammeSequence">
+      <div class="text">
+        <h2>Diagramme de séquence</h2>
+        <p>
+          Un diagramme de séquence est un outil essentiel pour la modélisation des systèmes logiciels car il permet de visualiser de manière claire et intuitive comment les différents éléments du système coopèrent pour accomplir des tâches spécifiques. Il offre plusieurs avantages :</p><br>
+          <p><b>Compréhension du comportement dynamique :</b> Les diagrammes de séquence aident les concepteurs, les développeurs et les parties prenantes à comprendre comment les objets ou les composants interagissent à un niveau temporel, montrant l'ordre dans lequel les actions se produisent.</p>
+          <p><b>Détection d'erreurs et d'ambiguïtés :</b> En représentant visuellement les interactions, les diagrammes de séquence peuvent révéler des erreurs de conception potentielles, des incohérences ou des ambigüités dans le comportement prévu du système.</p>
+          <p><b>Documentation :</b> Ils servent de documentation précieuse pour expliquer comment le système fonctionne, ce qui peut être utile pour les développeurs qui implémentent le logiciel, ainsi que pour les futurs utilisateurs et mainteneurs du système.</p>
+          <p><b>Communication :</b> Les diagrammes de séquence sont un moyen efficace de communiquer les détails de la conception logicielle à l'équipe de développement, aux gestionnaires de projet et aux parties prenantes non techniques. </p>
+          <p><b>Optimisation :</b> Ils peuvent aider à identifier les goulots d'étranglement et les zones où des améliorations de performance ou d'efficacité sont nécessaires.</p>
+          <p>En résumé, les diagrammes de séquence jouent un rôle crucial dans la modélisation et la conception des systèmes logiciels en permettant de visualiser et de comprendre les interactions dynamiques entre les éléments du système. Ils sont largement utilisés dans l'ingénierie logicielle pour améliorer la qualité des systèmes et faciliter la communication entre les parties prenantes tout au long du processus de développement logiciel.
+          </p>
+        </div>
+    <div class="img">
+          <img src="/img/UML_sequence.png"/>
+    </div>
+    </div>    
+    <div class="bloc" id="diagrammeCollaboration">
+      <div class="text">
+        <h2>Diagramme de collaboration</h2>
+        <p>
+          Un diagramme de collaboration, également connu sous le nom de diagramme de communication, 
+          est un type de diagramme UML (Unified Modeling Language) utilisé pour représenter les interactions entre les objets ou les composants d'un système logiciel à
+           un niveau élevé d'abstraction. Contrairement aux diagrammes de séquence qui se concentrent sur la séquence temporelle des interactions, 
+           les diagrammes de collaboration mettent l'accent sur les relations structurales entre les objets ou les acteurs impliqués dans une collaboration donnée.
+           Un diagramme de collaboration est un outil utile pour représenter visuellement les interactions entre les objets ou les acteurs d'un système logiciel. 
+           Il permet de capturer les relations structurelles et les échanges d'informations entre les participants à une collaboration donnée. 
+           Ces diagrammes sont particulièrement utiles dans les premières phases de la conception logicielle pour modéliser les grandes lignes de l'architecture du système et les flux 
+           d'interaction entre ses composants.</p>
+        </div>
+    <div class="img">
+          <img src="/img/dCollaboration.png"/>
+    </div>
+    </div>    
+    <div class="bloc" id="diagrammeSequence">
+      <div class="text">
+        <h2>Diagramme d'état</h2>
+        <p>
+          Les diagrammes d'état sont utiles pour représenter le comportement réactif des objets ou des systèmes,
+           montrant comment ils réagissent à différents événements et conditions. 
+           Ils sont couramment utilisés pour modéliser des systèmes embarqués, des automates, des logiciels de contrôle et d'autres systèmes où le 
+           comportement dépend de l'état courant et des transitions entre les états. Ils aident les concepteurs et les développeurs à comprendre et à documenter le
+            comportement complexe d'un système sous diverses circonstances.</p>
+        </div>
+    <div class="img">
+          <img src="/img/dEtat.png"/>
+    </div>
+    </div>
+    <div class="bloc" id="diagrammeSequence">
+      <div class="text">
+        <h2>Diagramme d'état</h2>
+        <p>
+          Les diagrammes d'état sont utiles pour représenter le comportement réactif des objets ou des systèmes,
+           montrant comment ils réagissent à différents événements et conditions. 
+           Ils sont couramment utilisés pour modéliser des systèmes embarqués, des automates, des logiciels de contrôle et d'autres systèmes où le 
+           comportement dépend de l'état courant et des transitions entre les états. Ils aident les concepteurs et les développeurs à comprendre et à documenter le
+            comportement complexe d'un système sous diverses circonstances.</p>
+        </div>
+    <div class="img">
+          <img src="/img/dEtat.png"/>
     </div>
     </div>
   <script src="../scripts.js"></script>
