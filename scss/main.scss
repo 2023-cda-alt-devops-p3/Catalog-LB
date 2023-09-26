@@ -1,18 +1,46 @@
 @import '_navbar.scss';
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&family=Rowdies:wght@300&display=swap');
-$couleurPrimere: #11101d;
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Rowdies:wght@300&display=swap');
+$couleurPrimere: #272441;
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  font-family: Barlow;
+  font-family: 'Barlow';
 }
-
 h1, h2, h3, h4, h5 {
   margin-top: 10px;
   font-weight: 600;
   color: $couleurPrimere;
 }
-
+h1 {
+  font-size: 50px;
+  margin-right: auto;
+  padding: 0 20px;
+  color: white;
+  span {
+    background: #11101d;
+    margin-left: -35px;
+    padding: 0 20px 10px 20px;
+    border-radius: 0 10px 10px 0px;
+  }
+}
+h2 {
+  font-size: 40px;
+  margin: 10px 0;
+  i {
+    font-size: 25px;
+    color: #57546e;
+  }
+}
+p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+b {
+  color: #201e3a;
+}
 .demarrageRapide {
   width: 100%;
   display: flex;
@@ -32,5 +60,16 @@ h1, h2, h3, h4, h5 {
       border-radius: 10px;
       box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.55);
     }
+  }
+}
+.bloc{
+  display: flex;
+  align-items: center;
+  .text {
+    width: 60%;
+  }
+  img{
+    max-width: 500px;
+    width: 100%;
   }
 }

@@ -3,12 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 html {
+  margin-top: 30px;
   margin-left: 90px;
 }
 .sidebar{
+  font-family: 'Poppins', sans-serif;
   position: fixed;
   top: 0;
   left: 0;
