@@ -1,5 +1,5 @@
 @import '_navbar.scss';
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Rowdies:wght@300&display=swap');
 $couleurPrimere: #272441;
 html {
   --scroll-behavior: smooth;
@@ -29,6 +29,10 @@ h1 {
 h2 {
   font-size: 40px;
   margin: 10px 0;
+  i {
+    font-size: 25px;
+    color: #57546e;
+  }
 }
 p {
   font-size: 18px;
@@ -58,7 +62,7 @@ b {
     }
   }
 }
-.top{
+.bloc{
   display: flex;
   align-items: center;
   .text {
