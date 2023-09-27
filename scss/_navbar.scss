@@ -211,6 +211,20 @@ html {
     float: right;
     display: block;
   }
+  html {
+    margin-left: 0;
+    margin-top: 50px;
+    padding: 0 10px 0 10px;
+  }
+  .sidebar {
+    &.close {
+      height: 60px;
+      border-radius: 0 0 20px;
+      li {
+        display: none;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
