@@ -34,9 +34,19 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="/UML/index.html">Diagrammes UML</a></li>
-          <li><a href="/UML/utilisation.html">Diagramme de cas d'utilisation</a></li>
-          <li><a href="/UML/classe.html">Diagramme de classe</a></li>
-          <li><a href="/UML/objet.html">Diagramme d'objet</a></li>
+          <li><a href="/UML/index.html#diagrammeUtilisation">Diagramme de cas d'utilisation</a></li>
+          <li><a href="/UML/index.html#diagrammeClasses">Diagramme de classe</a></li>
+          <li><a href="/UML/index.html#diagrammeObjet">Diagramme d'objet</a></li>
+          <li><a href="/UML/index.html#diagrammeSequence">Diagramme de séquence</a></li>
+          <li><a href="/UML/index.html#diagrammeCollaboration">Diagramme de collaboration</a></li>
+          <li><a href="/UML/index.html#diagrammeEtat">Diagramme d'état</a></li>
+          <li><a href="/UML/index.html#diagrammeactivite">Diagramme d'activité</a></li>
+          <li><a href="/UML/index.html#diagrammeComposants">Diagramme de composants</a></li>
+          <li><a href="/UML/index.html#diagrammeDeploiement">Diagramme de déploiement</a></li>
+          <li><a href="/UML/index.html#diagrammeCommunication">Diagramme de communication </a></li>
+          <li><a href="/UML/index.html#diagrammeTiming">Diagramme de timing</a></li>
+          <li><a href="/UML/index.html#diagrammePackages">Diagramme de packages</a></li>
+          <li><a href="/UML/index.html#diagrammesysteme">Diagramme de sous-système</a></li>
         </ul>
       </li>
       <li>
@@ -49,9 +59,9 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="/Merise/index.html">Merise</a></li>
-          <li><a href="/Merise/mcd.html">Conceptuel des données (MCD)</a></li>
-          <li><a href="/Merise/mld.html">Logique des données (MLD)</a></li>
-          <li><a href="/Merise/mpd.html">Physique des données (MPD)</a></li>
+          <li><a id="MCD" href="#">Conceptuel des données (MCD)</a></li>
+          <li><a id="MLD" href="#">Logique des données (MLD)</a></li>
+          <li><a id="MPD" href="#">Physique des données (MPD)</a></li>
         </ul>
       </li>
       <li>
@@ -74,7 +84,58 @@
       </li>
     </ul>
   </div>
+  
   <h1><span>Méthode MERISE</span></h1>
+  <div class="bloc">
+    <div class="text" id="diagrammeClasses">
+      <h2>Modèle Conceptuel de Données <i>(MCD)</i></h2>
+      <p>
+        Le MCD est généralement utilisé comme une étape préliminaire dans la conception d'une base de données ou d'un système d'information. 
+        Il permet de capturer les principales entités, attributs et relations du domaine d'application, aidant ainsi à définir la structure de la base de données ou du système. 
+        Une fois le MCD établi, il peut être transformé en un modèle physique de données (MPD) qui détaille la façon dont les données seront stockées dans la 
+        base de données sous forme de tables, de colonnes, de clés, etc.
+    </p>
+  </div>
+    <div class="img">
+          <img src="/img/MCD.JPG"/>
+    </div>
+  </div>
+  <div class="bloc">
+    <div class="text" id="diagrammeClasses">
+      <h2>Modèle Logique de Données <i>(MLD)</i></h2>
+      <p>
+        Un MLD (Modèle Logique de Données) est un modèle de données qui se situe entre le modèle conceptuel de données (MCD) 
+        et le modèle physique de données (MPD) dans le processus de conception d'une base de données. Le MLD représente la structure de la base de 
+        données d'une manière qui est plus proche de la façon dont les données seront stockées physiquement, mais qui reste indépendante de tout système de 
+        gestion de base de données (SGBD) particulier.   
+        Le MLD est généralement indépendant de tout SGBD particulier, ce qui signifie que vous pouvez le concevoir avant de choisir le SGBD que vous utiliserez pour implémenter la base de données. Une fois le MLD finalisé, il peut être converti en un modèle physique de données spécifique à un SGBD donné, ce qui signifie qu'il sera ajusté en fonction des fonctionnalités et des exigences spécifiques du SGBD choisi.
+
+        Le MLD joue un rôle essentiel dans la conception et le développement de bases de données,
+        car il aide les concepteurs à planifier la structure de la base de données de manière efficace et à garantir 
+        que les données sont stockées de manière cohérente et qu'elles répondent aux besoins de l'application.
+      </p>
+  </div>
+    <div class="img">
+          <img src="/img/MLD.png"/>
+    </div>
+  </div>  
+  <div class="bloc">
+    <div class="text" id="diagrammeClasses">
+      <h2>Modèle Physique des Données <i>(MPD)</i></h2>
+      <p>
+        Le Modèle Physique des Données (MPD) est une étape cruciale dans le processus de conception de bases de données relationnelles. 
+        Il s'agit de la représentation concrète des données et de leur structure telle qu'elles seront stockées dans un système de 
+        gestion de base de données (SGBD) spécifique. Le MPD se situe à un niveau de détail plus bas que le Modèle Conceptuel des Données (MCD) et le Modèle Organisationnel
+        des Données (MOD), qui sont des modèles conceptuels utilisés pour décrire la structure logique des données.
+        le Modèle Physique des Données (MPD) fournit une représentation détaillée et pratique de la structure de la base de données, 
+        ce qui permet aux développeurs et aux administrateurs de bases de données de mettre en œuvre le système de gestion de base de données en fonction 
+        des besoins spécifiques du projet. Il s'agit d'une étape essentielle dans le processus de conception de bases de données relationnelles.
+      </p>
+  </div>
+    <div class="img">
+          <img src="/img/MPD.png"/>
+    </div>
+  </div>
   <script src="../scripts.js"></script>
 </body>
 </html>
