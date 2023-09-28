@@ -98,3 +98,45 @@ b {
     width: 100%;
   }
 }
+.page {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  .box {
+    width: 33%;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    min-width: 450px;
+    .git {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .contener {
+        background-color: #27253d31;
+        display: flex;
+        margin: 0 20px;
+        width: calc(100% - 40px);
+        .commande {
+          border-right: 1px solid #11101d;
+          display: flex;
+          width: 40%;
+          padding: 5px;
+          font-size: 16px;
+          align-items: center;
+        }
+        .desc {
+          display: flex;
+          align-items: center;
+          width: 60%;
+          padding: 5px;
+          font-size: 16px;
+        }
+      }
+      .contener:nth-child(odd){
+        background-color: #11101d15;
+      }
+    }
+  }
+}
+
