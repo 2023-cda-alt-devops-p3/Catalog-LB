@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,16 +59,16 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="/Merise/index.html">Merise</a></li>
-          <li><a id="MCD" href="/Merise/index.html#conceptuelDonnées">Conceptuel des données (MCD)</a></li>
-          <li><a id="MLD" href="/Merise/index.html#logiqueDonnées">Logique des données (MLD)</a></li>
-          <li><a id="MPD" href="/Merise/index.html#physiqueDonnées">Physique des données (MPD)</a></li>
-          <li><a id="MPD" href="/Merise/index.html#diagrammeDonnees">Diagramme de flux de données (DFD)</a></li>
-          <li><a id="MPD" href="/Merise/index.html#diagrammeProcessus">Diagramme de flux de processus (DFD)</a></li>
-          <li><a id="MPD" href="/Merise/index.html#diagrammeAssociation">Diagramme entité-association (EA)</a></li>
+          <li><a href="/Merise/index.html#conceptuelDonnées">Conceptuel des données (MCD)</a></li>
+          <li><a href="/Merise/index.html#logiqueDonnées">Logique des données (MLD)</a></li>
+          <li><a href="/Merise/index.html#physiqueDonnées">Physique des données (MPD)</a></li>
+          <li><a href="/Merise/index.html#diagrammeDonnees">Diagramme de flux de données (DFD)</a></li>
+          <li><a href="/Merise/index.html#diagrammeProcessus">Diagramme de flux de processus (DFD)</a></li>
+          <li><a href="/Merise/index.html#diagrammeAssociation">Diagramme entité-association (EA)</a></li>
         </ul>
       </li>
       <li>
-        <a href="#">
+        <a href="/git/index.html">
           <i class='bx bx-pie-chart-alt-2' ></i>
           <span class="link_name">Git</span>
         </a>
@@ -87,23 +87,27 @@
       </li>
     </ul>
   </div>
+  
   <h1><span>Les commandes GIT</span></h1>
   <div class="page"> 
     <div class="box">
-    <h2>Git config</h2>
       <div class="git">
+        <h2>Git config</h2>
         <div class="contener">
-          <div class="commande">git config --global user.email sam@google.com</div>
-          <div class="desc">Set the name that will be attached to your commits and tags</div>
+          <div class="commande">git config --global user.name "Votre nom"</div>
+          <div class="desc">Configurer le nom d'utilisateur</div>
         </div>
         <div class="contener">
-          <div class="commande">git config --global user.email “you@example. com”</div>
-          <div class="desc"> Définir l'adresse e-mail qui sera jointe à vos commitset des balises.
-            </div>
+          <div class="commande">git config --global user.email "votre@email.com"</div>
+          <div class="desc">Configurer l'adresse e-mail </div>
         </div>
         <div class="contener">
           <div class="commande">git config --global color.ui auto</div>
           <div class="desc">Activer une certaine colorisation de la sortie Git</div>
+        </div> 
+         <div class="contener">
+          <div class="commande">git config --list</div>
+          <div class="desc">Lister toutes les configurations</div>
         </div>
       </div>
     </div>
@@ -118,21 +122,42 @@
             <div class="commande">git clone "dépot git"</div>
             <div class="desc">Cloner un dépôt existant</div>
           </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="git">
+          <h2>Travail quotidien</h2>
           <div class="contener">
-            <div class="commande">***</div>
-            <div class="desc">***</div>
+            <div class="commande">git status</div>
+            <div class="desc">Afficher l'état de votre répertoire de travail.</div>
+          </div>
+          <div class="contener">
+            <div class="commande">git add -A</div>
+            <div class="desc">Ajouter un fichier</div>
+          </div>
+          <div class="contener">
+            <div class="commande">git checkout -- "file"</div>
+            <div class="desc">Annuler les modifications</div>
+          </div>
+          <div class="contener">
+            <div class="commande">git commit -m "nom du commit"</div>
+            <div class="desc">Créer un nouveau commit </div>
+          </div>
+          <div class="contener">
+            <div class="commande">git push origin "branch"</div>
+            <div class="desc">Envoyer les modifications sur le dépôt Git</div>
           </div>
         </div>
       </div>
       <div class="box">
           <div class="git">
-            <h2>Enregistrement des modifications</h2>
+            <h2>Enregistrement</h2>
             <div class="contener">
               <div class="commande">git status</div>
               <div class="desc">Voir l'état des fichiers modifiés</div>
             </div>
             <div class="contener">
-              <div class="commande">git add "nom du fichier"</nom></div>
+              <div class="commande">git add "nom du fichier"</div>
               <div class="desc">Ajouter des fichiers à l'index (zone de staging)</div>
             </div>
             <div class="contener">
@@ -149,20 +174,41 @@
             <div class="git">
               <h2>Branches</h2>
               <div class="contener">
-                <div class="commande">git branch "nom de la branche"</nom></div>
+                <div class="commande">git branch "nom de la branche"</div>
                 <div class="desc">Créer une nouvelle branche</div>
               </div>
               <div class="contener">
-                <div class="commande">git checkout "nom de la branche"</nom></div>
+                <div class="commande">git checkout "nom de la branche"</div>
                 <div class="desc">Changer de branche</div>
               </div>
               <div class="contener">
-                <div class="commande">git checkout -b "nom de la branche"</nom></div>
+                <div class="commande">git checkout -b "nom de la branche"</div>
                 <div class="desc">Créer une nouvelle branche et basculer dessus</div>
               </div>
               <div class="contener">
-                <div class="commande">git branch -d "nom de la branche"</nom></div>
+                <div class="commande">git branch -d "nom de la branche"</div>
                 <div class="desc">Supprimer une branche (après fusion)</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="git">
+              <h2>Remotes (Dépôts distants)</h2>
+              <div class="contener">
+                <div class="commande">git remote -v</div>
+                <div class="desc">Afficher la liste des remotes</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git remote add "nom du remote" "URL du remote"</div>
+                <div class="desc">Ajouter un remote</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git pull "nom du remote" "branche distante"</div>
+                <div class="desc">Récupérer les modifications d'un remote</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git push "nom du remote" "branche locale"</div>
+                <div class="desc">Pousser les modifications vers un remote</div>
               </div>
             </div>
           </div>
@@ -170,16 +216,12 @@
             <div class="git">
               <h2>Fusion (Merge)</h2>
               <div class="contener">
-                <div class="commande">git merge "nom de la branche"</nom></div>
+                <div class="commande">git merge "nom de la branche"</div>
                 <div class="desc">Fusionner une branche dans la branche active</div>
               </div>
               <div class="contener">
                 <div class="commande">git reset --hard HEAD</div>
                 <div class="desc">Annuler une fusion (avant de valider)</div>
-              </div>
-              <div class="contener">
-                <div class="commande">***</div>
-                <div class="desc">***</div>
               </div>
             </div>
           </div>
@@ -193,27 +235,6 @@
               <div class="contener">
                 <div class="commande">git diff "commit 1" "commit 2"</div>
                 <div class="desc">Afficher les différences entre deux validations</div>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <div class="git">
-              <h2>Remotes (Dépôts distants)</h2>
-              <div class="contener">
-                <div class="commande">git remote -v</div>
-                <div class="desc">Afficher la liste des remotes</div>
-              </div>
-              <div class="contener">
-                <div class="commande">git remote add "nom du remote" "URL du remote"</URL></div>
-                <div class="desc">Ajouter un remote</div>
-              </div>
-              <div class="contener">
-                <div class="commande">git pull "nom du remote" "branche distante"</div>
-                <div class="desc">Récupérer les modifications d'un remote</div>
-              </div>
-              <div class="contener">
-                <div class="commande">git push "nom du remote" "branche locale"</div>
-                <div class="desc">Pousser les modifications vers un remote</div>
               </div>
             </div>
           </div>
@@ -234,7 +255,7 @@
               </div>
             </div>
           </div>
-          <div class="box">
+          <!--<div class="box">
             <div class="git">
               <h2>Git config</h2>
               <div class="contener">
@@ -250,8 +271,8 @@
                 <div class="desc">***</div>
               </div>
             </div>
-          </div>
+          </div> -->
   </div> 
-  <script src="scripts.js"></script>
+  <script src="../scripts.js"></script>
 </body>
 </html>

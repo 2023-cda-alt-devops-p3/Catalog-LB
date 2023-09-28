@@ -59,3 +59,17 @@
     }
   }
 }
+@media (max-width: 1470px) { 
+  .page {
+    .box {
+      width: calc(50% - 10px) !important;
+    }
+  }
+}
+@media (max-width: 1010px) { 
+  .page {
+    .box {
+      width: calc(100% - 10px) !important;
+    }
+  }
+}
