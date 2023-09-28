@@ -43,6 +43,29 @@ p {
 b {
   color: #201e3a;
 }
+.info {
+  display: flex;
+  a {
+    text-decoration: none;
+    color: #201e3a94;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    i {
+      font-size: 25px;
+    }
+  }a:hover {
+    text-decoration: none;
+    color: #201e3a;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    i {
+      font-size: 25px;
+    }
+  }
+}
+
 .demarrageRapide {
   width: 100%;
   display: flex;

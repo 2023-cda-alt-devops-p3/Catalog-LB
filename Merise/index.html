@@ -59,27 +59,30 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="/Merise/index.html">Merise</a></li>
-          <li><a id="MCD" href="#">Conceptuel des données (MCD)</a></li>
-          <li><a id="MLD" href="#">Logique des données (MLD)</a></li>
-          <li><a id="MPD" href="#">Physique des données (MPD)</a></li>
+          <li><a id="MCD" href="/Merise/index.html#conceptuelDonnées">Conceptuel des données (MCD)</a></li>
+          <li><a id="MLD" href="/Merise/index.html#logiqueDonnées">Logique des données (MLD)</a></li>
+          <li><a id="MPD" href="/Merise/index.html#physiqueDonnées">Physique des données (MPD)</a></li>
+          <li><a id="MPD" href="/Merise/index.html#diagrammeDonnees">Diagramme de flux de données (DFD)</a></li>
+          <li><a id="MPD" href="/Merise/index.html#diagrammeProcessus">Diagramme de flux de processus (DFD)</a></li>
+          <li><a id="MPD" href="/Merise/index.html#diagrammeAssociation">Diagramme entité-association (EA)</a></li>
         </ul>
       </li>
       <li>
         <a href="#">
           <i class='bx bx-pie-chart-alt-2' ></i>
-          <span class="link_name">Analytics</span>
+          <span class="link_name">Test1</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Analytics</a></li>
+          <li><a class="link_name" href="#">Test1</a></li>
         </ul>
       </li>
       <li>
         <a href="#">
           <i class='bx bx-line-chart' ></i>
-          <span class="link_name">Chart</span>
+          <span class="link_name">Test2</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Chart</a></li>
+          <li><a class="link_name" href="#">Test2</a></li>
         </ul>
       </li>
     </ul>
@@ -87,7 +90,7 @@
   
   <h1><span>Méthode MERISE</span></h1>
   <div class="bloc">
-    <div class="text" id="diagrammeClasses">
+    <div class="text" id="conceptuelDonnées">
       <h2>Modèle Conceptuel de Données <i>(MCD)</i></h2>
       <p>
         Le MCD est généralement utilisé comme une étape préliminaire dans la conception d'une base de données ou d'un système d'information. 
@@ -101,7 +104,7 @@
     </div>
   </div>
   <div class="bloc">
-    <div class="text" id="diagrammeClasses">
+    <div class="text" id="logiqueDonnées">
       <h2>Modèle Logique de Données <i>(MLD)</i></h2>
       <p>
         Un MLD (Modèle Logique de Données) est un modèle de données qui se situe entre le modèle conceptuel de données (MCD) 
@@ -120,7 +123,7 @@
     </div>
   </div>  
   <div class="bloc">
-    <div class="text" id="diagrammeClasses">
+    <div class="text" id="physiqueDonnées">
       <h2>Modèle Physique des Données <i>(MPD)</i></h2>
       <p>
         Le Modèle Physique des Données (MPD) est une étape cruciale dans le processus de conception de bases de données relationnelles. 
@@ -134,6 +137,75 @@
   </div>
     <div class="img">
           <img src="/img/MPD.png"/>
+    </div>
+  </div>
+  <div class="bloc">
+    <div class="text" id="diagrammeDonnees">
+      <h2>Diagramme de flux de données <i>(DFD)</i></h2>
+      <p>
+        Un diagramme de flux de données (DFD) est un outil de modélisation qui est utilisé pour représenter visuellement le 
+        flux de données à travers un système d'information. Il est largement utilisé dans l'analyse et la conception de systèmes informatiques 
+        pour comprendre comment les données sont collectées, traitées et transférées à travers un système.
+        Il existe plusieurs niveaux de DFD, qui sont utilisés pour décomposer un système complexe en composants plus simples et pour fournir une vue hiérarchique du système. Les niveaux typiques incluent :
+        Niveau 0 (DFD de contexte) : Il montre le système dans son ensemble et ses interactions avec les entités externes.<br></p>
+      <p>
+        <b>Niveau 1 :</b> Il décompose le système en processus principaux et montre comment ils interagissent avec les flux de données.<br>
+        <b>Niveaux supérieurs :</b> Si nécessaire, vous pouvez continuer à décomposer les processus du niveau 1 en niveaux supplémentaires pour fournir une vue plus détaillée du système.</p>
+      <p>
+        L'objectif principal d'un DFD est de fournir une compréhension claire du flux de données à travers un système, ce qui peut aider les analystes et les concepteurs de systèmes à identifier les problèmes potentiels, à améliorer l'efficacité du système et à documenter les exigences fonctionnelles.      </p>
+      </p>
+      </div>
+    <div class="img">
+          <img src="/img/DFD.png"/>
+    </div>
+  </div>
+  <div class="bloc">
+    <div class="text" id="diagrammeProcessus">
+      <h2>Diagramme de flux de processus <i>(DFD)</i></h2>
+      <p>
+        Le Modèle Physique des Données (MPD) est une étape cruciale dans le processus de conception de bases de données relationnelles. 
+        Il s'agit de la représentation concrète des données et de leur structure telle qu'elles seront stockées dans un système de 
+        gestion de base de données (SGBD) spécifique. Le MPD se situe à un niveau de détail plus bas que le Modèle Conceptuel des Données (MCD) et le Modèle Organisationnel
+        des Données (MOD), qui sont des modèles conceptuels utilisés pour décrire la structure logique des données.
+        le Modèle Physique des Données (MPD) fournit une représentation détaillée et pratique de la structure de la base de données, 
+        ce qui permet aux développeurs et aux administrateurs de bases de données de mettre en œuvre le système de gestion de base de données en fonction 
+        des besoins spécifiques du projet. Il s'agit d'une étape essentielle dans le processus de conception de bases de données relationnelles.
+      </p>
+  </div>
+    <div class="img">
+          <img src="/img/dProcessus.png"/>
+    </div>
+  </div>
+  <!--<div class="bloc">
+    <div class="text" id="diagrammeClasses">
+      <h2>Diagramme de flux externe <i>(EFD)</i></h2>
+      <p>
+        L'objectif principal d'un diagramme de flux externe est de modéliser la manière dont les données circulent entre le système et ses acteurs externes, 
+        en mettant l'accent sur la façon dont les données sont traitées à l'intérieur du système. Cela permet de mieux comprendre les exigences en matière de traitement 
+        des données et de communication avec les entités externes, ce qui est essentiel dans la conception et le développement de systèmes d'information efficaces.
+      </p>
+      <p>
+        En résumé, un diagramme de flux externe est un outil de modélisation visuelle qui représente les interactions entre un système et ses acteurs 
+        externes, en mettant en évidence les flux de données qui entrent, sortent et traversent le système.
+      </p>
+  </div>
+    <div class="img">
+          <img src="/img/EFD.png"/>
+    </div>
+  </div> -->
+  <div class="bloc">
+    <div class="text" id="diagrammeAssociation">
+      <h2>Diagramme entité-association <i>(EA)</i></h2>
+      <p>
+        Les diagrammes entité-association sont essentiels lors de la conception de bases de données relationnelles, 
+        car ils aident à visualiser la structure des données, les relations entre les entités et les règles de gestion. 
+        Ils servent de base pour la création de schémas de bases de données, de tables et de clés étrangères.
+        En fin de compte, les diagrammes entité-association sont un moyen puissant de communiquer et de documenter les besoins en matière 
+        de données et les structures de données dans le cadre du développement de logiciels et de systèmes d'information.
+      </p>
+  </div>
+    <div class="img">
+          <img src="/img/EA.png"/>
     </div>
   </div>
   <script src="../scripts.js"></script>
