@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bx-menu' ></i>
+      <span class="logo_name">Lucas Bosak</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="/">
+          <i class='bx bx-home'></i>
+          <span class="link_name">Accueil</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="/">Accueil</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="/UML/index.html">
+            <i class='bx bx-book'></i>
+            <span class="link_name">UML</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="/UML/index.html">Diagrammes UML</a></li>
+          <li><a href="/UML/index.html#diagrammeUtilisation">Diagramme de cas d'utilisation</a></li>
+          <li><a href="/UML/index.html#diagrammeClasses">Diagramme de classe</a></li>
+          <li><a href="/UML/index.html#diagrammeObjet">Diagramme d'objet</a></li>
+          <li><a href="/UML/index.html#diagrammeSequence">Diagramme de séquence</a></li>
+          <li><a href="/UML/index.html#diagrammeCollaboration">Diagramme de collaboration</a></li>
+          <li><a href="/UML/index.html#diagrammeEtat">Diagramme d'état</a></li>
+          <li><a href="/UML/index.html#diagrammeactivite">Diagramme d'activité</a></li>
+          <li><a href="/UML/index.html#diagrammeComposants">Diagramme de composants</a></li>
+          <li><a href="/UML/index.html#diagrammeDeploiement">Diagramme de déploiement</a></li>
+          <li><a href="/UML/index.html#diagrammeCommunication">Diagramme de communication </a></li>
+          <li><a href="/UML/index.html#diagrammeTiming">Diagramme de timing</a></li>
+          <li><a href="/UML/index.html#diagrammePackages">Diagramme de packages</a></li>
+          <li><a href="/UML/index.html#diagrammesysteme">Diagramme de sous-système</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="/Merise/index.html">
+            <i class='bx bx-book-bookmark' ></i>
+            <span class="link_name">Merise</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="/Merise/index.html">Merise</a></li>
+          <li><a href="/Merise/index.html#conceptuelDonnées">Conceptuel des données (MCD)</a></li>
+          <li><a href="/Merise/index.html#logiqueDonnées">Logique des données (MLD)</a></li>
+          <li><a href="/Merise/index.html#physiqueDonnées">Physique des données (MPD)</a></li>
+          <li><a href="/Merise/index.html#diagrammeDonnees">Diagramme de flux de données (DFD)</a></li>
+          <li><a href="/Merise/index.html#diagrammeProcessus">Diagramme de flux de processus (DFD)</a></li>
+          <li><a href="/Merise/index.html#diagrammeAssociation">Diagramme entité-association (EA)</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="/git/index.html">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">Git</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="/git/index.html">Git</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-line-chart' ></i>
+          <span class="link_name">Test2</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Test2</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  <h1><span>Les commandes GIT</span></h1>
+  <div class="page"> 
+    <div class="box">
+      <div class="git">
+        <h2>Git config</h2>
+        <div class="contener">
+          <div class="commande">git config --global user.name "Votre nom"</div>
+          <div class="desc">Configurer le nom d'utilisateur</div>
+        </div>
+        <div class="contener">
+          <div class="commande">git config --global user.email "votre@email.com"</div>
+          <div class="desc">Configurer l'adresse e-mail </div>
+        </div>
+        <div class="contener">
+          <div class="commande">git config --global color.ui auto</div>
+          <div class="desc">Activer une certaine colorisation de la sortie Git</div>
+        </div> 
+         <div class="contener">
+          <div class="commande">git config --list</div>
+          <div class="desc">Lister toutes les configurations</div>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+        <div class="git">
+          <h2>Création de dépôts</h2>
+          <div class="contener">
+            <div class="commande">git init</div>
+            <div class="desc">Initialiser un nouveau dépôt Git</div>
+          </div>
+          <div class="contener">
+            <div class="commande">git clone "dépot git"</div>
+            <div class="desc">Cloner un dépôt existant</div>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="git">
+          <h2>Travail quotidien</h2>
+          <div class="contener">
+            <div class="commande">git status</div>
+            <div class="desc">Afficher l'état de votre répertoire de travail.</div>
+          </div>
+          <div class="contener">
+            <div class="commande">git add -A</div>
+            <div class="desc">Ajouter un fichier</div>
+          </div>
+          <div class="contener">
+            <div class="commande">git checkout -- "file"</div>
+            <div class="desc">Annuler les modifications</div>
+          </div>
+          <div class="contener">
+            <div class="commande">git commit -m "nom du commit"</div>
+            <div class="desc">Créer un nouveau commit </div>
+          </div>
+          <div class="contener">
+            <div class="commande">git push origin "branch"</div>
+            <div class="desc">Envoyer les modifications sur le dépôt Git</div>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+          <div class="git">
+            <h2>Enregistrement</h2>
+            <div class="contener">
+              <div class="commande">git status</div>
+              <div class="desc">Voir l'état des fichiers modifiés</div>
+            </div>
+            <div class="contener">
+              <div class="commande">git add "nom du fichier"</div>
+              <div class="desc">Ajouter des fichiers à l'index (zone de staging)</div>
+            </div>
+            <div class="contener">
+              <div class="commande">git commit -m "Message de validation"</div>
+              <div class="desc">Valider les modifications avec un message</div>
+            </div>
+            <div class="contener">
+              <div class="commande">git add .</div>
+              <div class="desc">Ajouter tous les fichiers modifiés</div>
+            </div>      
+          </div>
+        </div>
+        <div class="box">
+            <div class="git">
+              <h2>Branches</h2>
+              <div class="contener">
+                <div class="commande">git branch "nom de la branche"</div>
+                <div class="desc">Créer une nouvelle branche</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git checkout "nom de la branche"</div>
+                <div class="desc">Changer de branche</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git checkout -b "nom de la branche"</div>
+                <div class="desc">Créer une nouvelle branche et basculer dessus</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git branch -d "nom de la branche"</div>
+                <div class="desc">Supprimer une branche (après fusion)</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="git">
+              <h2>Remotes (Dépôts distants)</h2>
+              <div class="contener">
+                <div class="commande">git remote -v</div>
+                <div class="desc">Afficher la liste des remotes</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git remote add "nom du remote" "URL du remote"</div>
+                <div class="desc">Ajouter un remote</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git pull "nom du remote" "branche distante"</div>
+                <div class="desc">Récupérer les modifications d'un remote</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git push "nom du remote" "branche locale"</div>
+                <div class="desc">Pousser les modifications vers un remote</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="git">
+              <h2>Fusion (Merge)</h2>
+              <div class="contener">
+                <div class="commande">git merge "nom de la branche"</div>
+                <div class="desc">Fusionner une branche dans la branche active</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git reset --hard HEAD</div>
+                <div class="desc">Annuler une fusion (avant de valider)</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="git">
+              <h2>Historique</h2>
+              <div class="contener">
+                <div class="commande">git log</div>
+                <div class="desc">Afficher l'historique des validations</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git diff "commit 1" "commit 2"</div>
+                <div class="desc">Afficher les différences entre deux validations</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="git">
+              <h2>Annulation</h2>
+              <div class="contener">
+                <div class="commande">git checkout -- "nom du fichier"</div>
+                <div class="desc">Annuler les modifications locales d'un fichier</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git reset --hard HEAD</div>
+                <div class="desc">Annuler les modifications locales (toutes les modifications non validées)</div>
+              </div>
+              <div class="contener">
+                <div class="commande">git reset --soft HEAD~1</div>
+                <div class="desc">Annuler la dernière validation tout en conservant les modifications</div>
+              </div>
+            </div>
+          </div>
+          <!--<div class="box">
+            <div class="git">
+              <h2>Git config</h2>
+              <div class="contener">
+                <div class="commande">***</div>
+                <div class="desc">***</div>
+              </div>
+              <div class="contener">
+                <div class="commande">***</div>
+                <div class="desc">***</div>
+              </div>
+              <div class="contener">
+                <div class="commande">***</div>
+                <div class="desc">***</div>
+              </div>
+            </div>
+          </div> -->
+  </div> 
+  <script src="../scripts.js"></script>
+</body>
+</html>
