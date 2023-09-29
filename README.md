@@ -47,8 +47,8 @@ HTML sémantique<br>
 <br>
 Performance<br>
 Bon résultat sur PageSpeed Insights<br>
-Optimisation images (surtout mobile)<br>
-Limiter le nombre de requêtes<br>
+- [X]Optimisation images (surtout mobile)<br>
+- [ ]Limiter le nombre de requêtes<br>
 <br>
 Accessibilité<br>
 Accessibilité : title, aria-label, alt<br>
