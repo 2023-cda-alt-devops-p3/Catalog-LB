@@ -1,5 +1,5 @@
 # Catalogue-LB
-
+<b>https://catalogue-lb.netlify.app/</b>
 <h2>Diagrammes UML :</h2>
 
 <b>Diagramme de cas d'utilisation (Use Case Diagram)</b><br>
@@ -59,6 +59,15 @@ Accessibilité<br>
 Architecture<br>
 :heavy_check_mark: Bons principes de structuration respectés, y compris pour le web mobile => vérif des balises (body, header, navbar), et des noms de classes CSS, variables, media queries<br>
 Eviter les répétitions en utilisant des fonctions => check du code source
+
+Contenu
+Contenu vérifié : informations croisées, résumé de plusieurs sources, ...
+Détail des étapes pour chaque diagramme
+
+UI/UX
+Features d'animations, transitions, barre de navigation => vérif du site
+Design cohérent (couleur, forme, police)
+=======
 <br>
 Contenu<br>
 :heavy_check_mark: Contenu vérifié : informations croisées, résumé de plusieurs sources, ...<br>
@@ -67,3 +76,4 @@ Détail des étapes pour chaque diagramme<br>
 UI/UX<br>
 :heavy_check_mark: Features d'animations, transitions, barre de navigation => vérif du site<br>
 :heavy_check_mark: Design cohérent (couleur, forme, police)<br>
+
